@@ -7,6 +7,10 @@ android {
     namespace = "com.example.placar"
     compileSdk = 34
 
+    viewBinding{
+        enable =true
+    }
+
     defaultConfig {
         applicationId = "com.example.placar"
         minSdk = 24
