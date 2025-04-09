@@ -24,6 +24,6 @@ class SplashActivity : AppCompatActivity() {
             val nextIntent = Intent(this, PlayerActivity::class.java)
             startActivity(nextIntent)
             finish()
-        },TEMPO_DO_SPLASH)
+        }, TEMPO_DO_SPLASH)
     }
 }

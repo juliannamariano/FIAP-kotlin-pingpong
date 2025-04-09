@@ -86,4 +86,15 @@
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="@+id/textView3"
         app:layout_constraintStart_toStartOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/tvLastGame"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        tools:text="Último jogo"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/etPlayer2"
+        app:layout_constraintStart_toStartOf="@+id/etPlayer2"
+        app:layout_constraintTop_toBottomOf="@+id/etPlayer2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
